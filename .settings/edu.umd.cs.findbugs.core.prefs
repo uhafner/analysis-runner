@@ -1,5 +1,5 @@
 #FindBugs User Preferences
-#Sat Mar 22 16:48:35 CET 2014
+#Mon Sep 29 19:57:51 CEST 2014
 cloud_id=edu.umd.cs.findbugs.cloud.doNothingCloud
 detectorAppendingToAnObjectOutputStream=AppendingToAnObjectOutputStream|true
 detectorAtomicityProblem=AtomicityProblem|true
@@ -57,6 +57,7 @@ detectorFindOpenStream=FindOpenStream|true
 detectorFindPuzzlers=FindPuzzlers|true
 detectorFindRefComparison=FindRefComparison|true
 detectorFindReturnRef=FindReturnRef|true
+detectorFindRoughConstants=FindRoughConstants|true
 detectorFindRunInvocations=FindRunInvocations|true
 detectorFindSelfComparison=FindSelfComparison|true
 detectorFindSelfComparison2=FindSelfComparison2|true
@@ -78,6 +79,7 @@ detectorHugeSharedStringConstants=HugeSharedStringConstants|true
 detectorIDivResultCastToDouble=IDivResultCastToDouble|true
 detectorIncompatMask=IncompatMask|true
 detectorInconsistentAnnotations=InconsistentAnnotations|true
+detectorInefficientIndexOf=InefficientIndexOf|true
 detectorInefficientMemberAccess=InefficientMemberAccess|false
 detectorInefficientToArray=InefficientToArray|true
 detectorInfiniteLoop=InfiniteLoop|true
@@ -100,6 +102,7 @@ detectorMutableStaticFields=MutableStaticFields|true
 detectorNaming=Naming|true
 detectorNoteUnconditionalParamDerefs=NoteUnconditionalParamDerefs|true
 detectorNumberConstructor=NumberConstructor|true
+detectorOptionalReturnNull=OptionalReturnNull|true
 detectorOverridingEqualsNotSymmetrical=OverridingEqualsNotSymmetrical|true
 detectorPreferZeroLengthArrays=PreferZeroLengthArrays|true
 detectorPublicSemaphores=PublicSemaphores|false
@@ -116,6 +119,7 @@ detectorStringConcatenation=StringConcatenation|true
 detectorSuperfluousInstanceOf=SuperfluousInstanceOf|true
 detectorSuspiciousThreadInterrupted=SuspiciousThreadInterrupted|true
 detectorSwitchFallthrough=SwitchFallthrough|true
+detectorSynchronizationOnSharedBuiltinConstant=SynchronizationOnSharedBuiltinConstant|true
 detectorSynchronizeAndNullCheckField=SynchronizeAndNullCheckField|true
 detectorSynchronizeOnClassLiteralNotGetClass=SynchronizeOnClassLiteralNotGetClass|true
 detectorSynchronizingOnContentsOfFieldToProtectField=SynchronizingOnContentsOfFieldToProtectField|true
